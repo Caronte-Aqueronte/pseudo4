@@ -1,0 +1,19 @@
+Algoritmo pseudo4
+	Definir min, max, edad  Como Entero
+	Escribir "Ingrese las edades de los participantes"
+	Para x<-1 Hasta 20 Con Paso 1 Hacer
+		Leer edad
+		//esto es para la primera iteracion
+		Si x == 1 Entonces
+			min = edad
+			max = edad
+		FinSi
+		Si edad < min Entonces
+			min = edad
+		Fin Si
+		Si edad > max Entonces
+			max = edad
+		FinSi
+	Fin Para
+	Escribir "La persona mayor es ", max, " y la persona menor es ",min
+FinAlgoritmo
